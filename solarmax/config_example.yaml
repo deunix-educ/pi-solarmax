@@ -1,0 +1,19 @@
+mqtt:
+  ca_cert: null
+  clean_session: true
+  host: 192.168.1.x
+  keepalive: 60
+  password: xxxx
+  port: 1883
+  reconnect_timeout: 5
+  use_ssl: null
+  username: xxxx
+solarmax:
+  inverters:
+    192.168.1.123:
+    - 1
+  ip: 192.168.1.4
+  loop_timeout: 5
+  origine: automation
+  topic_base:
+  uuid: 

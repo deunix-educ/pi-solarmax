@@ -1,0 +1,39 @@
+This document translated from the original German version using Google Translate.
+
+
+Under the brand name "SolarMax" sells the Swiss company 
+Sputnik Engineering AG photovoltaic inverter. 
+
+The SolarMax inverters can be customized with normal Ethernet connection 
+query, taking advantage of a (sort of) text-based protocol over 
+a TCP connection. 
+
+The protocol used was reverse engineered by me (using 
+Network-capturing using the MaxTalk software). 
+
+Only after implementation of the basic functionality I received yet 
+still a documentation of the protocol used by the manufacturer. 
+The license of this interface description, however, does not allow 
+to make them publicly: 
+| The user shall refrain from the data log Third 
+| To be disclosed to. Next he refrains from the 
+| MaxComm data protocol for serial production 
+| Of data visualization and -überwachungsgeräten and 
+| By alerting devices for inverter systems to 
+| Use which the corresponding standard solutions 
+| The Supplier compete. However, permitted the 
+| Used for the production of such devices 
+| For your own use or as part of the authoritative 
+|-Tailored data communication system individual solutions 
+| For certain customers. If in doubt, Sputnik 
+| To ask. 
+
+Contact the manufacturer: 
+   Sputnik Engineering AG 
+   CH-Biel 
+   www.solarmax.com 
+
+
+
+The present here Python library but not based on this 
+Interface description and therefore not subject to this restriction.

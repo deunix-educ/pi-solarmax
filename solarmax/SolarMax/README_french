@@ -1,0 +1,39 @@
+Ce document est en langue allemande. N'hésitez pas à traduire.
+
+
+L'entreprise suisse vend sous la marque "SolarMax".
+Onduleur photovoltaïque Sputnik Engineering AG.
+
+Les onduleurs SolarMax peuvent être utilisés avec une connexion Ethernet normale
+requête utilisant un (sorte de) protocole basé sur du texte
+une connexion TCP.
+
+Le protocole utilisé a été rétro-conçu par moi (en utilisant
+capture réseau lors de l'utilisation du logiciel MaxTalk).
+
+Ce n'est qu'après avoir implémenté la fonctionnalité de base que je l'ai reçu
+ni la documentation du protocole utilisé par le fabricant.
+Cependant, la licence de cette description d'interface ne permet pas
+pour les rendre publics :
+| L'utilisateur s'abstient de fournir le journal de données à des tiers
+| divulguer à. Il s'abstient en outre de le faire
+| Protocole de données MaxComm pour la production en série
+| de dispositifs de visualisation et de surveillance des données, et
+| de dispositifs d'alarme pour les systèmes d'onduleurs
+| utiliser les solutions étalons correspondantes
+| du fournisseur en concurrence. En revanche, il est permis
+| Utilisation pour la fabrication de tels dispositifs
+| pour un usage personnel ou dans le cadre de
+| système de communication de données sur mesure solutions individuelles
+| pour des clients spécifiques. En cas de doute, Spoutnik
+| demander.
+
+Coordonnées du fabricant :
+   Sputnik Engineering AG
+   CH-Bienne
+   www.solarmax.com
+
+
+
+Cependant, la bibliothèque Python présentée ici n'est pas basée sur celle-ci
+Description de l'interface et n'est donc pas soumis à cette restriction.
